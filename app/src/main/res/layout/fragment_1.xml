@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <EditText
+        android:id="@+id/get_id"
+        android:hint="Введите id"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/get_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите название книги"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/get_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите автора книги"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ввести"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Загрузить"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вывести данные"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить"
+        android:layout_gravity="center"/>
+</LinearLayout>
